@@ -34,5 +34,28 @@ int main(){
 	max(a1c[4],max(a2c[4],a3c[4])),
 	
 };
-
+	double Ra1c[5]={ (a1c[0]/mc[0]),(a1c[1]/mc[1]),(a1c[2]/mc[2]),(a1c[3]/mc[3]),(a1c[4]/mc[4])};
+	double Ra2c[5]={ (a2c[0]/mc[0]),(a2c[1]/mc[1]),(a2c[2]/mc[2]),(a2c[3]/mc[3]),(a2c[4]/mc[4]) };
+	double Ra3c[5]={ (a3c[0]/mc[0]),(a3c[1]/mc[1]),(a3c[2]/mc[2]),(a3c[3]/mc[3]),(a3c[4]/mc[4]) };
+	
+	cout<< endl;
+	cout<< "MATRIKS R:"<<endl;
+	int l=0;
+		do{
+		cout<<Ra1c[1]<<"|";
+		l++;
+	}while(i<5);cout<<endl;
+	int m=0;
+	do{
+		cout<<Ra2c[m]<<"|";
+		m++;
+	}while(m<5);cout<<endl;
+	int n=0;
+	do{
+		cout<<Ra3c[n]<<"|";
+		n++;
+	}while(n<5);cout<<endl;
+	
+	double w[5]={5,3,4,4,2};
+	
 }
